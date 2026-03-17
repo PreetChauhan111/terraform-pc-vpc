@@ -7,7 +7,7 @@ variable "create_vpc" {
 variable "region" {
   description = "Region where the resource(s) will be managed. Defaults to the region set in the provider configuration"
   type        = string
-  default     = null
+  default     = "ap-south-1"
 }
 
 variable "tags" {
