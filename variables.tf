@@ -1672,8 +1672,3 @@ variable "flow_log_cloudwatch_log_group_class" {
   type        = string
   default     = null
 }
-
-variable "environment" {
-  type    = string
-  default = "Dev"
-}
